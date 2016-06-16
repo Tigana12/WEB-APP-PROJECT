@@ -1,0 +1,134 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>BROOK FIELD RANCH - About</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/tooplate_style.css" rel="stylesheet" type="text/css" />
+	
+    <script type="text/javascript" src="js/swfobject.js"></script>
+	<script type="text/javascript">
+        var flashvars = {};
+        flashvars.xml_file = "photo_list.xml";
+        var params = {};
+        params.wmode = "transparent";
+        var attributes = {};
+        attributes.id = "slider";
+        swfobject.embedSWF("flash_slider.swf", "flash_grid_slider", "440", "220", "9.0.0", false, flashvars, params, attributes);
+    </script>
+
+</head>
+<body>
+
+<div id="tooplate_wrapper">
+
+	<div id="tooplate_header">
+        <div id="site_title">
+        	<h1><img src='images/logooo.PNG' width="250"/img><a href="#">BROOK FIELD RANCH</a></h1>
+        </div>
+        <div id="tooplate_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html" >About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html" class="current">Gallery</a></li>
+                <li><a href="contacts and help page.html" 
+                >Contact</a></li>
+            </ul>    	
+        </div> <!-- end of tooplate_menu -->
+    </div> <!-- end of forever header -->
+    
+    <div id="tooplate_middle">
+    	<div id="mid_slider">
+        	<div id="flash_grid_slider">
+                <a rel="nofollow" href="http://www.adobe.com/go/getflashplayer">
+                    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                </a>
+			</div>
+        </div>
+        <div id="mid_left">
+            <div id="mid_title">
+                Brook Web Gallery
+                
+            </div>
+            <p> Here is a collection of the professionally taken photographs taken from our ranch. We know you would like to have a feel of what is offered at our ranch. Do not worry, that is exactly what we have here. And...do not be mistaken, what you see is exactly what you will get if you visit us!
+ </p>
+  
+            <div id="learn_more"><a href="#">Learn More</a></div>
+	  	</div>
+       
+        <div class="cleaner"></div>
+	</div> 
+    
+    <div id="tooplate_main_top"></div>
+    <div id="tooplate_main">
+    	
+       <div id="gallery">
+        	<div class="gallery_box">
+                <a class="lightbox" href="images/gallery/image_01_b.jpg" title="Cras nec nisl a enim ornare imperdiet.">
+				<img width="300" height="150" src="images/gallery/gal4.jpg" alt="Image 01" class="image_wrapper" />
+                </a>
+                <p></p>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box">
+                <a class="lightbox" href="images/gallery/image_02_b.jpg" title="Sed in urna neque nec arcu arcu, sed pretium lacus.">
+                    <img src="images/gallery/gal5.jpg" alt="Image 02" class="image_wrapper" />
+                </a>
+                <p></p>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box gb_lmb">
+                <a class="lightbox" href="images/gallery/image_03_b.jpg" title="Integer est sem, dignissim quis auctor vel.">
+                    <img src="images/gallery/gal1.jpg" alt="Image 03" class="image_wrapper" />
+                </a>
+                <p></p>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box">
+                <a class="lightbox" href="images/gallery/image_04_b.jpg" title="Vivamus volutpat, elit non tempor vehicula.">
+	                <img src="images/gallery/gal2.jpg" alt="Image 04" class="image_wrapper" />
+                </a>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box">
+                <a class="lightbox" href="images/gallery/image_05_b.jpg" title="Nulla pharetra blandit nunc, ut volutpat leo tincidunt eget.">
+                	<img src="images/gallery/gal3.jpg" alt="Image 05" class="image_wrapper" />
+                </a>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box gb_lmb">
+                <a class="lightbox" href="images/gallery/image_06_b.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <img src="images/gallery/image_06.jpg" alt="Image 06" class="image_wrapper" />
+                </a>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+        </div> 
+    	<div class="cleaner"></div>
+    </div> <!-- end of main -->
+    <div id="tooplate_main_bottom"></div>
+
+</div> <!-- wrapper -->
+
+<div id="tooplate_footer_wrapper">
+	<div id="tooplate_footer">
+        Copyright © 2016 <a href="#">Brook Ranch</a> 
+        | Design: <a href="http://www.tooplate.com">Tigandrew designers</a>
+	</div>
+</div>
+
+</body>
+</html>
