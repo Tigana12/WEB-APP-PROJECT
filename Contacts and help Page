@@ -1,0 +1,150 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" type="image/jpg" href="images/favicon.PNG">
+
+<title>Brook Contacts</title>
+</head>
+
+<body>
+</body>
+</html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Brook Ranch - Contact</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/tooplate_style.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="js/swfobject.js"></script>
+	<script type="text/javascript">
+        var flashvars = {};
+        flashvars.xml_file = "photo_list.xml";
+        var params = {};
+        params.wmode = "transparent";
+        var attributes = {};
+        attributes.id = "slider";
+        swfobject.embedSWF("flash_slider.swf", "flash_grid_slider", "440", "220", "9.0.0", false, flashvars, params, attributes);
+    </script>
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" />    
+    
+    <!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+   
+    <script type="text/javascript">
+    $(function() {
+        $('#map a').lightBox();
+    });
+    </script>
+
+</head>
+<body>
+
+<div id="tooplate_wrapper">
+
+	<div id="tooplate_header">
+        <div id="site_title">
+        	<h1><a href="#">Brown Field</a></h1>
+        </div>
+        <div id="tooplate_menu">
+            <ul>
+                <li><a href="Home Page 1.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contacts and help page.html" class="current">Contact</a></li>
+            </ul>    	
+        </div> 
+    </div> 
+    
+    <div id="tooplate_middle">
+    	<div id="mid_slider">
+			<div id="flash_grid_slider">
+                <a rel="nofollow" href="http://www.adobe.com/go/getflashplayer">
+                    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                </a>
+			</div>
+        </div>
+        <div id="mid_left">
+            <div id="mid_title">
+                Contact Information	
+          </div>
+            <p>We not only value our clients, but we also strive to ensure that we serve each and every  one of them with the adequate attention that they require. With a dedicated customer service team, you can be sure that no question you have to ask will go unanwered. Do not hesitate to get in touch with us via the contacts we provide.
+            
+             
+            <div id="learn_more"><a href="#">Learn More</a></div>
+	  	</div>
+        <div class="cleaner"></div>
+	</div>
+    
+    <div id="tooplate_main_top"></div>
+    <div id="tooplate_main">
+    	
+        <div class="col_w420 float_l">
+            <div id="contact_form">
+        
+                <h4>Quick Contact Form</h4>
+                
+                <form method="post" name="contact" action="#">
+					
+						<label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" />
+						<div class="cleaner h10"></div>
+													
+						<label for="email">Email:</label> <input type="text" class="validate-email required input_field" name="email" id="email" />
+						<div class="cleaner h10"></div>
+											
+						<label for="subject">Subject:</label> <input type="text" class="validate-subject required input_field" name="subject" id="subject"/>				               
+						<div class="cleaner h10"></div>
+							
+						<label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+						<div class="cleaner h10"></div>				
+												
+						<input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" />
+						<input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
+						
+				</form> 
+
+            </div> 
+        </div>
+            
+        <div class="col_w420 float_r">
+            <h4>Our location</h4>
+            <h6><a rel="nofollow" href="http://www.tooplate.com" title="free templates"><b><span class="orange">Brook</span><span class="green">Ranch</span></b></a> provides discounted transportation to clients from airports and other specific locations when information concerning travel and other booking logistics are provided in adequate time. Get in touch with us and let us know if we can pick you up.<br />&nbsp;</h6>
+            <div id="map">
+                <a href="images/map_big.jpg" title="Where We Are">
+                    <img width="300" height="200" src="images/Brook map.PNG" alt="Where We Are" class="image_wrapper" />
+                </a>
+    </div>                
+            <div class="cleaner h30"></div>
+            
+            <h4>Mailing Address</h4>
+            <h6><strong>Brook Ranch</strong></h6>
+            163 Nairobi, <br />
+    Kenya<br />
+            
+            
+            <strong>Phone:</strong> +254 707752889<br />
+            <strong>Email:</strong> <a href="b">info@brookranch.com</a> 
+        </div>    	
+
+    	<div class="cleaner"></div>
+    </div> 
+    <div id="tooplate_main_bottom"></div>
+
+</div> 
+
+<div id="tooplate_footer_wrapper">
+	<div id="tooplate_footer">
+        Copyright © 2016 <a href="#">Brook Ranch</a> 
+        | Design: <a href="http://www.tooplate.com">Tigdrew designers</a>
+	</div>
+</div>
+
+</body>
+</html>
